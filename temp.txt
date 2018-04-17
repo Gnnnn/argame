@@ -1,0 +1,9 @@
+db.visitors.find({"_id":ObjectId("5a139984b9030831b408ac79")})
+
+"C:\Program Files\MongoDB\Server\3.6\bin\mongo" 192.168.1.195:27017/dolls -u dolls -p tsDollsDbPsd
+
+
+D:\P4\Backend\ARDoll\public\js\jsx\popup\OrderModal.jsx
+
+
+

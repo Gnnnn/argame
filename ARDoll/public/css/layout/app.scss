@@ -1,0 +1,71 @@
+.contain-to-grid {
+  margin-bottom : 50px;
+
+  h1 {
+	color : red;
+  }
+}
+
+.content {
+  .side-nav {
+	> li {
+	  margin : 16px 0;
+	}
+	& *:first-child {
+	  margin-top : 0;
+	}
+  }
+}
+
+.tc-circle {
+  border-radius : 50%;
+  height        : 36px;
+  width         : 38px;
+  z-index       : 0;
+}
+
+.remark {
+  color       : red;
+  font-weight : bolder;
+}
+
+.col-btn {
+  margin : 0;
+}
+
+.react-datepicker-popper {
+  width : 350px;
+}
+
+.react-datepicker__time-list {
+  width : 130px !important;
+}
+
+.react-datepicker-wrapper {
+  width : 100%;
+}
+
+.react-datepicker__input-container {
+  width : 100%;
+}
+
+.unresizable-area {
+  resize : none;
+  height : auto;
+}
+
+select {
+  height : 28px;
+}
+
+td {
+  > input {
+	width            : 100%;
+	padding          : 0;
+	border           : 0;
+	background-color : transparent;
+	white-space      : nowrap;
+	overflow         : hidden;
+	text-overflow    : ellipsis;
+  }
+}

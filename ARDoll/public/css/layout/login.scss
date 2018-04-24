@@ -1,0 +1,27 @@
+.login-page {
+  text-align : center;
+}
+
+.welcome {
+  padding : 10px;
+}
+
+.accordion-title {
+  font-weight : lighter;
+  color       : black;
+  &:hover {
+	color : #777;
+  }
+}
+
+.panelhidden {
+  display : none;
+}
+
+.active {
+  display : block;
+}
+
+.vcard-width {
+  width : 400px;
+}

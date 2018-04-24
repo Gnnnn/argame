@@ -1,0 +1,71 @@
+@keyframes fadeInRight {
+  from {
+	opacity   : 0;
+	transform : translate3d(100%, 0, 0);
+  }
+
+  100% {
+	opacity   : 1;
+	transform : none;
+  }
+}
+
+.fadeInRight {
+  animation-name : fadeInRight;
+}
+
+@keyframes fadeOutRight {
+  from {
+	opacity : 1;
+  }
+
+  100% {
+	opacity   : 0;
+	transform : translate3d(100%, 0, 0);
+  }
+}
+
+.fadeOutRight {
+  animation-name : fadeOutRight;
+}
+
+.tc-toastr-container {
+  pointer-events : none;
+  position       : fixed;
+  z-index        : 100000000;
+  display        : block;
+  width          : 250px;
+  bottom         : 20px;
+  right          : 2px;
+}
+
+.tc-toastr {
+  position         : absolute;
+  pointer-events   : auto;
+  background-color : #F5F5F5;
+  display          : flex;
+  width            : 245px;
+  border-radius    : 2px;
+  color            : #43AC6A;
+  padding          : 15px;
+  font-size        : 12px;
+  box-shadow       : 2px 2px 10px rgba(0, 0, 0, 0.16);
+  border-left      : 0.4rem solid #43AC6A;
+  word-wrap        : break-word;
+  transition       : 280ms;
+  &.error {
+	border-left      : 0.4rem solid #E26969;
+	background-color : #F5F5F5;
+	color            : #E26969;
+  }
+}
+
+.tc-error-fade-right-right {
+  &.tc-error-enter, &.tc-error-appear {
+	animation : fadeInRight 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &.tc-error-leave {
+	animation : fadeOutRight 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

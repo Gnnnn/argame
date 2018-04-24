@@ -1,0 +1,3 @@
+set NODE_ENV=development
+set NODE_DEBUG=true
+node app/app.js

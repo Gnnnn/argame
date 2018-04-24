@@ -1,0 +1,19 @@
+{
+  "webUrl": "39.104.66.47",
+  "serverUrl": "39.104.66.47",
+  "port": "8888",
+  "adviceCountPrePage": 20,
+  "versionCountPrePage": 10,
+  "noticeCountPrePage": 20,
+  "pushCountPrePage": 20,
+  "dollCountPrePage": 20,
+  "dollMachineCountPrePage": 20,
+  "dollMachinePawCountPrePage": 20,
+  "roomCountPrePage": 20,
+  "categoryCountPrePage": 20,
+  "tagCountPrePage": 20,
+  "rechargeMallCountPrePage": 20,
+  "pointMallCountPrePage": 20,
+  "announcementCountPrePage": 20,
+  "orderCountPrePage": 20
+}

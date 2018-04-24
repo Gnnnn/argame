@@ -1,0 +1,32 @@
+.modal-overlay-bass {
+}
+
+.modal-overlay-after-open {
+  position         : fixed;
+  top              : 0px;
+  left             : 0px;
+  right            : 0px;
+  bottom           : 0px;
+  background-color : rgba(0, 0, 0, 0.75);
+}
+
+.modal-overlay-before-close {
+}
+
+.modal-base {
+}
+
+.modal-after-open {
+  margin-top       : 5%;
+  height           : 75%;
+  background-color : #F5F5F5;
+  border           : 1px solid rgb(204, 204, 204);
+  border-radius    : 8px;
+}
+
+.modal-after-close {
+}
+
+.modal-content-div {
+  margin : 20px 40px;
+}

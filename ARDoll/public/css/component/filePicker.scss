@@ -1,0 +1,87 @@
+.filepicker {
+  height : 170px;
+}
+
+.filepicker.dropzone a {
+  margin : 5px 0;
+}
+
+.filepicker.dropzone.dz-started {
+  display         : flex;
+  justify-content : center;
+}
+
+.filepicker.dropzone .dz-preview.dz-image-preview {
+  background : none;
+  margin     : 5px;
+}
+
+.dropzone-cancel {
+  position : absolute;
+  right    : 10px;
+  top      : 0;
+}
+
+.filter-icon-row {
+  margin-bottom : 10px !important;
+}
+
+.filter-icon {
+  height : 120px;
+  width  : 120px;
+  &:hover {
+	cursor : pointer;
+  }
+}
+
+.dz-remove {
+  display : block;
+}
+
+.dropzone .dz-preview .details {
+  background-color : red;
+  padding          : 0;
+}
+
+.tc-pointer-cursor {
+  cursor : pointer !important;
+}
+
+.tc-not-allowed-cursor {
+  cursor : not-allowed !important;
+}
+
+.dz-image {
+  img {
+	margin : auto;
+	height : 120px;
+	width  : 120px;
+  }
+}
+
+.tc-file-dropzone {
+  .dz-image {
+	display : none !important;
+  }
+  .dz-details {
+	display : none !important;
+  }
+  .dz-remove {
+	margin-top : 60px !important;
+  }
+}
+
+.tc-empty-file-dropzone {
+  margin-top : 64px;
+}
+
+.ts-multiimg-upload-custom {
+  > .dz-preview {
+	display : none;
+  }
+}
+
+.ts-multiimg {
+  height : 40px;
+  float  : left !important;
+}
